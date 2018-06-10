@@ -1,0 +1,790 @@
+*{
+ box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+a{
+  font-family: "Open Sans", sans-serif;
+}
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  color: #000000;
+}
+a:hover{
+  color: #C0D0D6;
+  cursor: pointer;
+}
+nav{
+  cursor: pointer;
+}
+.intro{
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-left: 1em;
+}
+.introsentence{
+  font-size: 1.5em;
+  font-family: "Playfair Display", serif;
+  margin-left: 2em;
+}
+
+
+ul{
+  list-style: none;
+}
+li{
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+div#navmobile{
+ font-family: "Open Sans", sans-serif;
+ letter-spacing: 0.2em;
+}
+p{
+  font-family: "Open Sans", sans-sans-serif;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+h4{
+  font-family: "Open Sans", sans-sans-serif;
+}
+a.linkstoprojects{
+  color: #ff5c57;
+  font-weight: bolder;
+}
+#logo{
+  width: 3em;
+  height: auto;
+  margin-right: 3em;
+  margin-top: 1em;
+}
+.logo{
+  display: flex;
+  justify-content: flex-end;
+}
+.scrolltext{
+  writing-mode: vertical-rl;
+  letter-spacing: 0.4em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.arrowscroll img{
+  width: 1em;
+  height: auto;
+  margin-left: 1em;
+  animation: arrow 2s ease-in-out infinite;
+}
+
+@keyframes arrow {
+  100%{transform: translateY(3em);}
+}
+
+/*here starts the part with the survival kit/skills general styling*/
+div.text a{
+  font-weight: bold;
+}
+div.text a:hover{
+  color: #ff5c57;
+}
+.portfolio{
+  margin: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 2em;
+  padding: 2em;
+}
+.boxa{
+  background-color: #D7DBDB;
+  width: 12em;
+  height: 14em;
+  margin: 0.5em;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+.boxa img{
+    width: auto;
+    height: 11em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.boxb{
+  background-color: #F2F3F3;
+  width: 13em;
+  height: 15em;
+  margin: 0.5em;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+.boxb img{
+    width: 10em;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+  }
+.boxc{
+  background-color: #FFA6A4;
+  width: 16em;
+  height: 13em;
+  margin: 0.5em;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+.boxc img{
+    width: 13em;;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+.boxd{
+  background-color: #C0D0D6;
+  width: 14em;
+  height: 14em;
+  margin: 0.5em;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+.boxd img{
+    width: 5em;
+    height: auto;
+    display: block;
+    margin-top:1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* here starts the general styling for the about page*/
+.aboutpage{
+  background: linear-gradient(#ffffff, #C0D0D6);
+  background-repeat: no-repeat;
+}
+
+.sectionheader{
+  color: #ff5c57;
+  font-family: "Playfair Display", serif;
+  font-size: 2.3em;
+  font-weight: normal;
+}
+.sectionheader1{
+  color: #84979D;
+  font-family: "Playfair Display", serif;
+  font-size: 2.3em;
+  font-weight: normal;
+}
+#aboutphoto{
+  width: 35vw;
+  height: auto;
+  filter:grayscale(1);
+}
+#aboutphoto:hover{
+  filter: none;
+}
+.aboutdescription1{
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: left;
+}
+.interests{
+  text-align: center;
+}
+img.diamond1{
+  width: 2em;
+  height: auto;
+  margin-left: 1em;
+}
+img.diamond2{
+  width: 4em;
+  height: auto;
+  margin-left: 1em;
+}
+img.diamond3{
+  width: 6em;
+  height: auto;
+  margin-left: 1em;
+}
+/*here starts the general styling for the basic web page*/
+.basicwebpage{
+  background: linear-gradient(#ffffff, #D7DBDB);
+  background-repeat: no-repeat;
+}
+img.mobile{
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+img.desktop{
+  width: 50vw;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+
+}
+div.responsiveweb1{
+  background-color: #ffffff;
+  width: 70vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 3em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+}
+div.responsiveweb2{
+  background-color: #84979D;
+  width: 80vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 3em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+}
+.responsiveweb2 img{
+  width: 30vw;
+  height: auto;
+  margin: 2em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+
+}
+#monster-responsiveweb{
+  background-color: #E4E6E7;
+  width: 80vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 3em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+}
+/*here starts the styling for the basic content page*/
+.basiccontentpage{
+  background: linear-gradient(#ffffff, #EEF3F4);
+  background-repeat: no-repeat;
+}
+/*here starts the general styling for the basic animation page*/
+.basicanimationpage{
+  background: linear-gradient(#ffffff, #84979D);
+  background-repeat: no-repeat;
+}
+
+#basicanimationintro{
+  width: 400px;
+  height:400px;
+  background-image: url(basic-animation-intro.png);
+  animation: lion 2s steps(2) infinite;
+}
+@keyframes lion{
+  to{
+    background-position: -800px 0px;
+  }
+}
+#monster{
+  box-shadow: none;
+  width: 12em;
+  height: auto;
+}
+div.responsiveweb3{
+  width: 70vw;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.responsiveweb3 img{
+  width: 40vw;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+/* here starts the general styling for the basic ux page*/
+.basicuxpage{
+  background: linear-gradient(#ffffff, #C0D0D6);
+  background-repeat: no-repeat;
+}
+img.app{
+  width: 30vw;
+  height: auto;
+  margin: auto;
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.basicux1{
+  background-color: #84979D;
+  width: 70vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 3em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+}
+.basicux1 img{
+  width: 10vw;
+  height: auto;
+  margin: 2em;
+}
+.basicux2{
+  background-color: #e6285a;
+  width: 80vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 3em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+}
+.basicux2 img{
+  width: 30vw;
+  height: auto;
+  margin: 2em;
+  box-shadow: 2px 0px 96px -35px rgba(0,0,0,0.76);
+
+}
+/*here starts the styling for MOBILE screens*/
+@media (max-width: 750px){
+
+#logo{
+  margin: auto;
+  display: block;
+  }
+
+/*here is the styling for the burger menu*/
+.burgercontainer{
+  display: inline-block;
+  cursor: pointer;
+}
+div.burger1{
+  width: 1.7em;
+  height:0.1em;
+  background-color: #FF5C57;
+  margin: 0.5em 0;
+}
+div.burger2{
+  width: 1.6em;
+  height:0.1em;
+  background-color: #FF5C57;
+  margin: 0.5em 0 0.5em 0.2em;
+}
+div.burger3{
+  width: 2em;
+  height:0.1em;
+  background-color: #FF5C57;
+  margin: 0.5em 0;
+}
+.change div.burger1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change div.burger2 {
+  opacity: 0;
+}
+.change div.burger3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+div#navmobile{
+ text-align: center;
+ display: none;
+ background-color: #FF5C57;
+ width: 100vw;
+ padding-top: 1em;
+ padding-bottom: 1em;
+}
+a.navmobile:hover{
+ color: #ffffff;
+}
+div.buttons{
+  text-align: center;
+}
+/*here ends the styling for the burger menu*/
+/*here is the styling for the index page as mobile and tablet version*/
+.redbox{
+  min-width: 100vw;
+  min-height: 40vh;
+  background-color: #FF5C57;
+  font-family: "Playfair Display", serif;
+}
+.bluebox{
+  width: 100vw;
+  height: 15vh;
+  background-color: #C0D0D6;
+}
+.scrolltext{
+  margin-left: 2em;
+  margin-top: 1em;
+  letter-spacing: 0.2em;
+}
+
+.arrowscroll img{
+  margin-left: 2em;
+}
+#junglesprite{
+  background-image: url(jungle-intro-sprite-mobile.png);
+  width: 331px;
+  height: 300px;
+  animation: jungle 2.5s steps(10) infinite;
+  margin: auto;
+  display: block;
+}
+@keyframes jungle {
+  to {background-position: -3310px 0px;}
+}
+div#jungleposition{
+  margin: auto;
+  display: block;
+  margin-top: -2em;
+}
+.intro{
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  font-weight: normal;
+  margin-left: 1em;
+}
+.introsentence{
+  font-size: 1em;
+  font-family: "Playfair Display", serif;
+  margin-left: 1em;
+}
+.boxa{
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.boxb{
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.boxc{
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.boxd{
+  display: block;
+  margin: auto;
+}
+img.image{
+  margin-top: 1em;
+}
+h1.sectionheader{
+ text-align: center;
+}
+h1.sectionheader1{
+ text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+/* here ends the styling of the index page*/
+img#aboutphoto{
+  margin: auto;
+  display: block;
+  width: 70vw;
+  height: auto;
+}
+img.mobile{
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.aboutdescription{
+  text-align: left;
+}
+/* some styling of the images on the project sites for smaller screens*/
+img.desktop{
+  width: 80vw;
+  height: auto;
+}
+
+div.responsiveweb2{
+  width: 90vw;
+  height: auto:
+}
+div.responsiveweb2 img{
+  width: 60vw;
+  height: auto;
+}
+div.basicux1 img{
+  width: 20vw;
+  height: auto;
+}
+div.basicux2 img{
+  width: 60vw;
+  height: auto;
+}
+img.basicwebintro{
+  margin: auto;
+  display: block;
+  width: 70vw;
+  height: auto;
+}
+img.lionintro{
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+}
+/*here starts the styling for medium and large sized screens*/
+@media (min-width: 750px){
+
+nav li{
+  display: inline-block;
+}
+div#navmobile{
+  margin-top: -2em;
+}
+div.redboxflex{
+  display: flex;
+}
+.redbox{
+  width: 70vw;
+  height: 100vh;
+  background-color: #FF5C57;
+  margin-left: 2.5em;
+}
+.bluebox{
+  width: 20vw;
+  height: 100vh;;
+  background-color: #C0D0D6;
+}
+
+#junglesprite{
+  background-image: url(jungle-intro-sprite3.png);
+  width: 838.5px;
+  height: 760px;
+  animation: jungle 2.5s steps(10) infinite;
+}
+@keyframes jungle {
+  to {background-position: -8385px 0px;}
+}
+#jungleposition{
+  margin: auto;
+  display: block;
+  margin-top: -2em;
+}
+section.scroll{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro{
+  font-size: 2em;
+  font-weight: normal;
+  margin: auto;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.introsentence{
+
+}
+
+.portfoliogrid{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 0.5em;
+  grid-template-areas:
+  "boxa boxb"
+  "boxc boxd";
+}
+.boxa{
+  background-color: #FFA6A4;
+  grid-area: boxa;
+  filter:grayscale(1);
+  width: 12em;
+  height: 14em;
+  justify-self: end;
+  transition: width 2s, height 2s;
+}
+.boxa:hover{
+  width: 13em;
+  height: 15em;
+  filter: none;
+}
+.boxb{
+  background-color: #F2F3F3;
+  grid-area: boxb;
+  filter:grayscale(1);
+  width: 13em;
+  height: 15em;
+  transition: width 2s, height 2s;
+}
+.boxb:hover{
+  width: 14em;
+  height: 16em;
+  filter: none;
+}
+.boxc{
+  background-color: #D7DBDB;
+  grid-area: boxc;
+  filter:grayscale(1);
+  width: 16em;
+  height: 13em;
+  justify-self: end;
+  transition: width 2s, height 2s;
+}
+.boxc:hover{
+  width: 17em;
+  height: 12em;
+  filter: none;
+}
+.boxd{
+  background-color: #C0D0D6;
+  grid-area: boxd;
+  filter:grayscale(1);
+  width: 14em;
+  height: 14em;
+  transition: width 2s, height 2s;
+}
+.boxd:hover{
+  width: 12em;
+  height: 14em;
+  filter: none;
+}
+/* here starts styling for the about page*/
+#aboutp{
+  grid-area: left2;
+}
+p.aboutdescription{
+  grid-area: left3;
+  align-self: flex-start;
+}
+#aboutphoto{
+  grid-row: 2 / span 2;
+}
+/* here starts the styling for the basic web page*/
+.sectionweb1{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 0.5fr 1.5fr;
+  grid-template-areas:
+  "left right"
+  "left2 right2"
+  "left3 right3";
+}
+img.basicwebintro{
+  grid-row: 1 / 4;
+  width: 30vw;
+  height: auto;
+}
+h1.sectionheader{
+  grid-area: left;
+  text-align: center;
+}
+h1.sectionheader1{
+  grid-area: left;
+  text-align: center;
+}
+h2{
+  grid-area: left2;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  margin: 1em;
+}
+.sectionweb1 p{
+  grid-area: left3;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  align-self: flex-start;
+  width: 50vw;
+  margin: 0 2em 0 2em;
+}
+
+div.buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+div.firstbutton{
+  width: 12em;
+  height: 4em;
+  border: 2px solid #ff5c57;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 1em 1em 1em 1em;
+  margin: 1em;
+  margin-left: 3em;
+}
+div.firstbutton:hover{
+  background-color: #ff5c57;
+  color: #ffffff;
+}
+div.thirdbutton{
+  width: 12em;
+  height: 5em;
+  border: 2px solid #ff5c57;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 1em 1em 1em 1em;
+  margin: 1em;
+  margin-left: 1em;
+}
+div.thirdbutton:hover{
+  background-color: #ff5c57;
+  color: #ffffff;
+}
+
+div.secondbutton{
+  width: 12em;
+  height: 4em;
+  border: 2px solid #ff5c57;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 1em 1em 1em 1em;
+  margin: 1em;
+}
+div.secondbutton:hover{
+  background-color: #ff5c57;
+  color: #ffffff;
+}
+img.lionintro{
+  width: 35vw;
+  height: auto;
+  grid-row: 1 / 4;
+}
+}
+/*here starts the styling for desktop and large sized screens*/
+@media (min-width: 700px){
+
+}
